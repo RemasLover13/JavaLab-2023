@@ -1,0 +1,27 @@
+spring:
+  datasource:
+  driver-class-name: org.h2.Driver
+  url: jdbc:h2:file:C:\db\hs_db;AUTO_SERVER=TRUE
+  username: user123
+  password: user123
+  jpa:
+  hibernate:
+  ddl-auto: update
+
+  show-sql: true
+  properties:
+    hibernate:
+      format_sql: true
+
+
+hotel:
+  page:
+    size: 3
+
+server:
+  port:8081
+
+app:
+  api:
+    authentication:
+      key: service-cinema-key

@@ -1,0 +1,22 @@
+### Получение списка кинотеатров
+
+GET localhost:8081/api/cinemas?api-key=service-cinema-key&page=0
+
+### Получение одного кинотеатра
+
+GET localhost:8081/api/cinemas/4?api-key=service-cinema-key
+
+### Получение кинотеатров в городе
+
+GET localhost:8081/api/cinemas?api-key=service-cinema-key&page=0&city="Москва"
+
+### Добвление кинотеатра
+
+POST localhost:8081/api/cinemas?api-key=service-cinema-key
+Content-Type: application/json
+
+{
+  "title": "Максимус",
+  "address": "улица Пушкина, дом 13",
+  "city": "Москва"
+}

@@ -1,0 +1,3 @@
+### Получение информации об отелях, кинотеаторах в городе
+
+GET localhost:8082/info?hotels_page=0&city=Казань&cinemas_page=0

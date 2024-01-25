@@ -1,0 +1,24 @@
+### Adding a hotel
+
+POST localhost:8080/api/hotels?api_key=service-hotel-key
+Content-Type: application/json
+
+{
+  "title": "Summy-Hotel",
+  "address": "Golden street, 89 house",
+  "city": "Казань",
+  "stars": 4,
+  "rooms": 8
+}
+
+### Getting a list of hotels by city
+
+GET localhost:8080/api/hotels/city?api_key=service-hotel-key&page=0&city=Казань
+
+### Getting a hotel
+
+GET localhost:8080/api/hotels/1?api_key=service-hotel-key
+
+### Getting a list of hotels
+
+GET localhost:8080/api/hotels?api_key=service-hotel-key&page=0

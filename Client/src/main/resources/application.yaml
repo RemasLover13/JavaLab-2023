@@ -1,0 +1,5 @@
+feign:
+  hotels-service:
+    url:http://localhost:8080
+  cinemas-service:
+    url:http://localhost:8081
